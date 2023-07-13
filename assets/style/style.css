@@ -1,4 +1,4 @@
-html, body, h2, h3, p{
+html, body, h2, h3, p, input, textarea{
     margin: 0;
     padding: 0;
 }
@@ -167,6 +167,33 @@ nav:active{
     color: #EC7979;
 }
 
+.name-input, .email-input, .password-input, .message-input{
+    width: 370px;
+    height: 38px;
+    outline: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.name-input::placeholder, .email-input::placeholder, .password-input::placeholder, .message-input::placeholder{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.banner-axit__name{
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+.banner-axit__email, .banner-axit__password{
+    margin-top: 33px;
+    margin-left: 50px;
+}
+
 .red-button{
     font-family: "Open Sans";
     font-weight: 600;
@@ -193,7 +220,7 @@ nav:active{
     height: 60px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-top: 300px;
+    margin-top: 75px;
 }
 
 .social-back{
@@ -706,11 +733,34 @@ nav:active{
     padding-left: 169px;
 }
 
+.contact-wrapper__subtitle{
+    margin-bottom: 89px;
+}
+
+.contact-wrapper__name, .contact-wrapper__email, .contact-wrapper__password{
+    width: 571px;
+    margin-left: 169px;
+}
+
+.contact-wrapper__email, .contact-wrapper__password{
+    margin-top: 50px;
+}
+
+.contact-wrapper__textarea{
+    width: 570px;
+    height: 216px;
+    resize: none;
+    margin-right: 170px;
+    float: right;
+}
+
+
 .contact-wrapper__button{
     width: 370px;
     height: 58px;
-    margin-top: 353px;
+    margin-top: 50px;
     margin-left: 570px;
+    align-self: flex-end;
 }
 
 .footer-back{

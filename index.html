@@ -31,10 +31,13 @@
                 <p class="section-axit__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 <input class="section-axit__button white-button" type="button" value="Download"/>
             </div>
-            <div class="axit-wrapper__banner banner-axit">
+            <form class="axit-wrapper__banner banner-axit">
                 <h2 class="banner-axit__title">Try Your <span class="banner-axi__free">FREE</span> Trial Today</h2>
-                <input class="banner-axit__button red-button" type="button" value="Get Started"/>
-            </div>
+                <input class="banner-axit__name name-input" type="text" placeholder="Name" name="name"/>
+                <input class="banner-axit__email email-input" type="email" placeholder="Email" name="email"/>
+                <input class="banner-axit__password password-input" type="password" placeholder="Password" name="password"/>
+                <input class="banner-axit__button red-button" type="submit" value="Get Started"/>
+            </form>
         </div>
     </div>
     <div id="about" class="social-back">
@@ -234,12 +237,16 @@
             <input class="design-wrapper__button white-button" type="button" value="Download"/>
         </div>
     </div>
-    <div id="contact" class="contact-wrapper">
+    <form id="contact" class="contact-wrapper">
         <h2 class="contact-wrapper__title headline">contact us</h2>
         <div class="contact-wrapper__separator line"></div>
         <h3 class="contact-wrapper__subtitle subline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-        <input class="contact-wrapper__button red-button" type="button" value="Send Message"/>
-    </div>
+        <textarea class="contact-wrapper__textarea message-input" placeholder="Message" name="message"></textarea>
+        <input class="contact-wrapper__name name-input" type="text" placeholder="Name" name="name"/></br>
+        <input class="contact-wrapper__email email-input" type="email" placeholder="Email" name="email"/></br>
+        <input class="contact-wrapper__password password-input" type="password" placeholder="Password" name="password"/>
+        <input class="contact-wrapper__button red-button" type="submit" value="Send Message"/>
+    </form>
     <div class="footer-back">
         <footer>
             <img class="footer__icons facebook-footer" src="./assets/fonts/svg/facebook.svg" alt="picture"/>
