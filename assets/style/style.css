@@ -12,7 +12,7 @@ html, body, h2, h3, p, input, textarea{
     background-color: #000;
 }
 
-header{
+.header{
     width: 1510px;
     height: 75px;
     background-color: #000;
@@ -769,7 +769,7 @@ nav:active{
     background-color: #000;
 }
 
-footer{
+.footer{
     width: 1510px;
     height: 164px;
     background-color: #000;
