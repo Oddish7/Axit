@@ -1,0 +1,433 @@
+/* Axit */
+
+.axit-back{
+    width: 100%;
+    height: 951px;
+    margin: 0 auto;
+    background: url(../images/axit/street.png), 50% / cover no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.axit-wrapper{
+    display: flex;
+    max-width: 1510px;
+    height: 951px;
+    flex-direction:row;
+    margin: 0 auto;
+}
+
+.logo-axit{
+    display: flex;
+    width: 270px;
+    height: 100px;
+    align-items: center;
+    padding-top: 231px;
+    margin-left: 170px;
+}
+
+.section-axit__title{
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 48px;
+    color: #FFF;
+    
+    display: flex;
+    max-width: 670px;
+    height: 168px;
+    justify-content: center;
+    margin-top: 73px;
+    margin-left: 170px;
+}
+
+.section-axit__separator{
+    width: 170px;
+    border-top: 1px solid #FFF;
+    margin-top: 55px;
+    margin-left: 170px;
+
+}
+
+.section-axit__text{
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF;
+
+    display: flex;
+    width: 270px;
+    height: 42px;
+    justify-content: center;
+    margin-top: 42px;
+    margin-left: 170px;
+}
+
+.white-button{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #FFF;
+
+    width: 270px;
+    height: 58px;
+    margin-left: 170px;
+    margin-top: 42px;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid #FFF;
+    cursor: pointer;
+}
+
+.white-button:hover{
+    color: #EC7979;
+    border-color: #EC7979;
+}
+
+.white-button:active{
+    color: #FFF;
+    background-color: #AB4949;
+    border: none;
+}
+
+.banner-axit{
+    width: 470px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: #FFF;
+    margin-left: 30px;
+    margin-top: 207px;
+    float: right;
+}
+
+.banner-axit__title{
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 24px;
+    color: #333;
+
+    display: flex;
+    width: 367px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 53px;
+    text-transform: uppercase;
+}
+
+.banner-axi__free{
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #EC7979;
+}
+
+.name-input, .email-input, .password-input, .message-input{
+    width: 370px;
+    height: 38px;
+    outline: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.name-input::placeholder, .email-input::placeholder, .password-input::placeholder, .message-input::placeholder{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.banner-axit__name{
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+.banner-axit__email, .banner-axit__password{
+    margin-top: 33px;
+    margin-left: 50px;
+}
+
+.red-button{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #FFF;
+
+    background: #EC7979;
+    border: none;
+    cursor: pointer;
+}
+
+.red-button:hover{
+    background: #AB4949;
+}
+
+.red-button:active{
+    background: #EC7979;
+    box-shadow: 0px 0px 10px 0px #AB4949 inset;
+}
+
+.banner-axit__button{
+    width: 470px;
+    height: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 75px;
+}
+
+@media (max-width: 1324px){
+    .section-axit__title{
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 1024px){
+    .axit-back{
+        height: 768px;
+        max-width: 1024px;
+    }
+    
+    .axit-wrapper{
+        margin: 0;
+        height: 768px;
+    }
+    
+    .section-axit{
+        width: 570px;
+    }
+    
+    .logo-axit{
+        padding-top: 137px;
+        margin-left: 115px;
+    }
+    
+    .section-axit__title{
+        width: 455px;
+        margin-top: 37px;
+        margin-left: 115px;
+        font-size: 36px;
+    }
+    
+    .section-axit__separator{
+        margin-left: 115px;
+        margin-top: 41px;
+    }
+    
+    .section-axit__text{
+        margin-left: 115px;
+        margin-top: 31px;
+    }
+    
+    .white-button{
+        margin-left: 115px;
+        margin-top: 31px;
+    }
+    
+    .banner-axit{
+        margin-top: 137px;
+        margin-left: 36px;
+        margin-right: 20px;
+        width: 398px;
+        height: 449px;
+    }
+    
+    .banner-axit__title{
+        font-size: 18px;
+    }
+    
+    .banner-axit__title, .banner-axit__name, .banner-axit__email, .banner-axit__password{
+        width: 298px;
+    }
+    
+    .banner-axit__button{
+        width: 398px;
+        margin-top: 73px;
+    }
+}
+
+@media (max-width: 1023px){
+    .logo-axit, .section-axit__title, .section-axit__separator, .section-axit__text, .white-button{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 920px){
+    .logo-axit{
+        width: 200px;
+        height: 80px;
+        padding-top: 30px;
+        margin-left: 80px;
+    }
+    
+    .section-axit{
+        width: 320px;
+        height: 461px;
+        float: none;
+    }
+    
+    .section-axit__title{
+        width: 288px;
+        height: 168px;
+        font-size: 36px;
+        margin-top: 85px;
+        margin-left: 16px;
+        text-align: center;
+    }
+    
+    .section-axit__separator{
+        width: 134px;
+        margin-left: 93px;
+    }
+    
+    .section-axit__text{
+        width: 288px;
+        height: 32px;
+        margin-top: 42px;
+        margin-left: 16px;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .white-button{
+        width: 288px;
+        height: 50px;
+        margin-top: 42px;
+        margin-left: 16px;
+    }
+    
+    .banner-axit{
+        width: 288px;
+        height: 381px;
+        margin-left: 16px;
+        margin-top: 56px;
+    }
+    
+    .banner-axit__title{
+        width: 240px;
+        height: 90px;
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    
+    .banner-axit__name{
+        margin-top: 0;
+    }
+    
+    .banner-axit__name, .banner-axit__email, .banner-axit__password{
+        width: 240px;
+        height: 38px;
+        margin-left: 20px;
+    }
+    
+    .banner-axit__button{
+        width: 288px;
+        height: 60px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 630px){
+    .axit-back, .axit-wrapper{
+        height: 1000px;
+        flex-direction: column;
+    }
+    .banner-axit, .banner-axit__button, .section-axit__title, .white-button, .section-axit__text{
+        width: 280px;
+    }
+
+    .banner-axit{
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 336px){
+    .section-axit{
+        width: 300px;
+    }
+}
+
+@media (max-width: 320px){
+    .axit-back{
+        background: url(../images/axit/street.png), 50% / contain no-repeat;
+        background-blend-mode: multiply;
+        background-color: rgba(0, 0, 0, .5);
+    }
+    
+    .axit-back, .axit-wrapper{
+        flex-direction: column;
+        min-width: 320px;
+        height: 950px;
+    }
+    
+    .logo-axit{
+        display: none;
+    }
+    
+    .section-axit{
+        width: 320px;
+        height: 461px;
+        float: none;
+    }
+    
+    .section-axit__title{
+        width: 288px;
+        height: 168px;
+        font-size: 36px;
+        margin-top: 85px;
+        margin-left: 16px;
+        text-align: center;
+    }
+    
+    .section-axit__separator{
+        width: 134px;
+        margin-left: 93px;
+    }
+    
+    .section-axit__text{
+        width: 288px;
+        height: 32px;
+        margin-top: 42px;
+        margin-left: 16px;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .white-button{
+        width: 288px;
+        height: 50px;
+        margin-top: 42px;
+        margin-left: 16px;
+    }
+    
+    .banner-axit{
+        width: 288px;
+        height: 381px;
+        margin-left: 16px;
+        margin-top: 56px;
+    }
+    
+    .banner-axit__title{
+        width: 240px;
+        height: 90px;
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    
+    .banner-axit__name{
+        margin-top: 0;
+    }
+    
+    .banner-axit__name, .banner-axit__email, .banner-axit__password{
+        width: 240px;
+        height: 38px;
+        margin-left: 20px;
+    }
+    
+    .banner-axit__button{
+        width: 288px;
+        height: 60px;
+        margin-top: 50px;
+    }
+}

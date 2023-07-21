@@ -1,0 +1,200 @@
+/* Contact */
+
+.contact-wrapper{
+    max-width: 1510px;
+    height: 722px;
+    margin: 0 auto;
+}
+
+.contact-wrapper__title{
+    margin-top: 50px;
+    padding-left: 169px;
+}
+
+.contact-wrapper__subtitle{
+    margin-bottom: 89px;
+}
+
+.contact-wrapper__left-half{
+    max-width: 740px;
+    height: 217px;
+    float: left;
+}
+
+.contact-wrapper__name, .contact-wrapper__email, .contact-wrapper__password{
+    width: 571px;
+    margin-left: 169px;
+}
+
+.contact-wrapper__email, .contact-wrapper__password{
+    margin-top: 50px;
+}
+
+.contact-wrapper__textarea{
+    width: 570px;
+    height: 216px;
+    resize: none;
+    margin-left: 30px;
+}
+
+
+.contact-wrapper__button{
+    width: 370px;
+    height: 58px;
+    margin-top: 50px;
+    margin-left: 570px;
+}
+
+@media (max-width: 1356px){
+    .contact-wrapper__textarea{
+        width: 400px;
+    }
+}
+
+@media (max-width: 1186px){
+    .contact-wrapper__left-half{
+        width: 650px;
+    }
+
+    .contact-wrapper__name, .contact-wrapper__email, .contact-wrapper__password{
+        width: 500px;
+    }
+
+    .contact-wrapper__textarea{
+        width: 300px;
+    }
+
+    .contact-wrapper__button{
+        margin-left: 480px;
+    }
+}
+
+@media (max-width: 1024px){
+    .contact-wrapper{
+        height: 675px;
+    }
+
+    .contact-wrapper__title{
+        margin-top: 0;
+        padding-top: 50px;
+        padding-left: 16px;
+        font-weight: 700;
+    }
+
+    .contact-wrapper__subtitle{
+        margin-bottom: 72px;
+    }
+
+    .contact-wrapper__left-half{
+        width: 502px;
+    }
+
+    .contact-wrapper__name, .contact-wrapper__email, .contact-wrapper__password{
+        width: 486px;
+        margin-left: 16px;
+    }
+
+    .contact-wrapper__textarea{
+        width: 480px;
+        margin-left: 20px;
+    }
+
+    .contact-wrapper__button{
+        width: 318px;
+        margin-left: 353px;
+    }
+}
+
+@media (max-width: 1023px){
+    .contact-wrapper__textarea{
+        width: 250px;
+    }
+}
+
+@media (max-width: 788px){
+    .contact-wrapper{
+        max-width: 788px;
+        height: 870px;
+    }
+
+    .contact-wrapper__title{
+        padding-top: 0;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .contact-wrapper__subtitle{
+        margin-bottom: 64px;
+    }
+
+    .contact-wrapper__left-half{
+        width: 320px;
+        float: none;
+    }
+
+    .contact-wrapper__name, .contact-wrapper__email, .contact-wrapper__password{
+        width: 288px;
+    }
+
+    .contact-wrapper__textarea{
+        width: 288px;
+        margin-top: 50px;
+        margin-left: 16px;
+    }
+
+    .contact-wrapper__button{
+        position: relative;
+        width: 288px;
+        height: 50px;
+        margin-top: 0;
+        margin-left: 16px;
+        top: 316px;
+    }
+}
+
+@media (max-width: 336px){
+    .contact-wrapper__left-half{
+        width: 300px;
+    }
+}
+
+@media (max-width: 320px){
+    .contact-wrapper{
+        min-width: 320px;
+        height: 870px;
+    }
+
+    .contact-wrapper__title{
+        padding-top: 0;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .contact-wrapper__subtitle{
+        margin-bottom: 64px;
+    }
+
+    .contact-wrapper__left-half{
+        width: 320px;
+        float: none;
+    }
+
+    .contact-wrapper__name, .contact-wrapper__email, .contact-wrapper__password{
+        width: 288px;
+    }
+
+    .contact-wrapper__textarea{
+        width: 288px;
+        margin-top: 50px;
+        margin-left: 16px;
+    }
+
+    .contact-wrapper__button{
+        position: relative;
+        width: 288px;
+        height: 50px;
+        margin-top: 0;
+        margin-left: 16px;
+        top: 316px;
+    }
+}

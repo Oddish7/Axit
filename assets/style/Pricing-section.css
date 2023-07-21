@@ -1,0 +1,284 @@
+/* Pricing */
+
+.pricing-back{
+    width: 100%;
+    height: 900px;
+    background-color: #F5F5F5;
+}
+
+.pricing-wrapper{
+    max-width: 1508px;
+    height: 900px;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+}
+
+.pricing-wrapper__title{
+    padding-top: 50px;
+    padding-left: 168px;
+}
+
+.pricing-wrapper__subtitle{
+    padding-left: 169px;
+}
+
+.pricing-wrapper__subject{
+    width: 370px;
+    height: 510px;
+    background-color: #FFF;
+    margin-top: 79px;
+    float: left;
+}
+
+.subject1-pricing__rate, .subject2-pricing__rate, .subject3-pricing__rate{
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFF;
+
+    display: flex;
+    width: 370px;
+    height: 59px;
+    justify-content: center;
+    align-items: center;
+    background-color:#333333;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.subject1-pricing__price, .subject2-pricing__price, .subject3-pricing__price{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFF;
+
+    display: flex;
+    width: 370px;
+    height: 98px;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    border-top: 1px solid #F5F5F5;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.subject1-pricing__slogan, .subject2-pricing__slogan, .subject3-pricing__slogan{
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.50);
+
+    display: flex;
+    width: 370px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    border-top: 1px solid #F5F5F5;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.subject1-pricing__text, .subject2-pricing__text, .subject3-pricing__text{
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+
+    display: flex;
+    width: 370px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    border-top: 1px solid #F5F5F5;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.subject1-pricing{
+    margin-left: 168px;
+}
+
+.subject2-pricing, .subject3-pricing{
+    margin-left: 30px;
+}
+
+.pricing-wrapper__subject:hover{
+    transform: translate(0,-20px);
+    box-shadow: 0px 4px 10px 0px #33333333;
+}
+
+@media (max-width: 1354px){
+    .subject1-pricing{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 1250px){
+    .pricing-wrapper__subject{
+        width: 317px;
+        height: 475px;
+        margin-top: 50px;
+        margin-left: 14px;
+    }
+
+    .subject2-pricing, .subject3-pricing{
+        margin-left: 20px;
+    }
+
+    .subject1-pricing__rate, .subject2-pricing__rate, .subject3-pricing__rate{
+        width: 317px;
+        height: 54px;
+    }
+
+    .subject1-pricing__price, .subject2-pricing__price, .subject3-pricing__price{
+        width: 317px;
+        height: 89px;
+    }
+
+    .subject1-pricing__slogan, .subject2-pricing__slogan, .subject3-pricing__slogan{
+        width: 317px;
+        height: 45px;
+    }
+
+    .subject1-pricing__text, .subject2-pricing__text, .subject3-pricing__text{
+        width: 317px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 1024px){
+    .pricing-wrapper, .pricing-back{
+        height: 800px;
+        max-width: 1024px;
+    }
+
+    .pricing-wrapper__title{
+        margin-top: 0;
+        padding-left: 16px;
+    }
+
+    .pricing-wrapper__subtitle{
+        padding-left: 21px;
+    }
+
+    .pricing-wrapper__subject{
+        width: 317px;
+        height: 475px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    .subject2-pricing, .subject3-pricing{
+        margin-left: 20px;
+    }
+
+    .subject1-pricing__rate, .subject2-pricing__rate, .subject3-pricing__rate{
+        width: 317px;
+        height: 54px;
+    }
+
+    .subject1-pricing__price, .subject2-pricing__price, .subject3-pricing__price{
+        width: 317px;
+        height: 89px;
+    }
+
+    .subject1-pricing__slogan, .subject2-pricing__slogan, .subject3-pricing__slogan{
+        width: 317px;
+        height: 45px;
+    }
+
+    .subject1-pricing__text, .subject2-pricing__text, .subject3-pricing__text{
+        width: 317px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 1023px){
+    .pricing-wrapper__subject{
+        width: 250px;
+        height: 423px;
+        margin-left: 16px;
+    }
+
+    .subject1-pricing__rate, .subject2-pricing__rate, .subject3-pricing__rate{
+        width: 250px;
+        height: 47px;
+        font-size: 18px;
+    }
+
+    .subject1-pricing__price, .subject2-pricing__price, .subject3-pricing__price{
+        width: 250px;
+        height: 80px;
+        font-size: 24px;
+    }
+
+    .subject1-pricing__slogan, .subject2-pricing__slogan, .subject3-pricing__slogan{
+        width: 250px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .subject1-pricing__text, .subject2-pricing__text, .subject3-pricing__text{
+        width: 250px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 814px){
+    .pricing-wrapper, .pricing-back{
+        height: 1200px;
+    }
+}
+
+@media (max-width: 548px){
+    .pricing-wrapper, .pricing-back{
+        height: 1700px;
+    }
+}
+
+@media (max-width: 320px){
+    .pricing-wrapper, .pricing-back{
+        min-width: 320px;
+        height: 1580px;
+    }
+
+    .pricing-wrapper__title{
+        padding-top: 0;
+        font-size: 24px;
+    }
+
+    .pricing-wrapper__subject{
+        width: 288px;
+        height: 423px;
+        float: none;
+        margin-left: 16px;
+    }
+
+    .subject2-pricing, .subject3-pricing{
+        margin-top: 27px;
+    }
+
+    .subject1-pricing__rate, .subject2-pricing__rate, .subject3-pricing__rate{
+        width: 288px;
+        height: 47px;
+        font-size: 18px;
+    }
+
+    .subject1-pricing__price, .subject2-pricing__price, .subject3-pricing__price{
+        width: 288px;
+        height: 80px;
+        font-size: 24px;
+    }
+
+    .subject1-pricing__slogan, .subject2-pricing__slogan, .subject3-pricing__slogan{
+        width: 288px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .subject1-pricing__text, .subject2-pricing__text, .subject3-pricing__text{
+        width: 288px;
+        height: 40px;
+        font-size: 14px;
+    }
+}

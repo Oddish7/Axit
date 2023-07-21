@@ -1,0 +1,304 @@
+/* Awesome */
+
+.awesome-wrapper{
+    max-width: 1508px;
+    height: 723px;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+
+.awesome-wrapper__title, .headline{
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42.26px;
+    
+    display: flex;
+    max-width: 1170px;
+    height: 150px;
+    align-items: center;
+    justify-content: center; 
+    text-transform: uppercase;
+    padding-left: 171px;
+}
+
+.awesome-wrapper__title{
+    margin-top: 50px;
+}
+
+.awesome-wrapper__separator, .line{ 
+    width: 170px;
+    border-top: 1px solid #EC7979;
+    margin-left: 671px;
+
+}
+
+.awesome-wrapper__subtitle, .subline{
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
+    color: #86878B;
+
+    display: flex;
+    max-width: 1169px;
+    height: 21px;
+    justify-content: center;
+    margin-top: 40px;
+    padding-left: 172px;
+}
+
+.awesome-wrapper__section{
+    width: 370px;
+    height: 383px;
+    margin-top: 71px;
+    margin-left: 168px;
+    float: left;
+}
+
+.section2-awesome, .section3-awesome{
+    margin-left: 30px;
+}
+
+.section1-awesome__image, .section2-awesome__image, .section3-awesome__image{
+    margin-left: 100px;
+}
+
+.section1-awesome__subtitle, .section2-awesome__subtitle, .section3-awesome__subtitle{
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 24px;
+
+    display: flex;
+    width: 369px;
+    height: 100px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.section1-awesome__text, .section2-awesome__text, .section3-awesome__text{
+    font-family: "Raleway";
+    font-weight: 400;
+    size: 18px;
+    text-align: center;
+
+    width: 370px;
+    height: 105px;
+    margin-top: 8px;
+}
+
+@media (max-width: 1354px){
+    .awesome-wrapper__section{
+        width: 300px;
+    }
+
+    .section1-awesome__image, .section2-awesome__image, .section3-awesome__image{
+        margin-left: 70px;
+    }
+
+    .section1-awesome__subtitle, .section2-awesome__subtitle, .section3-awesome__subtitle{
+        width: 300px;
+    }
+
+    .section1-awesome__text, .section2-awesome__text, .section3-awesome__text{
+        width: 300px;
+    }
+}
+
+@media (max-width: 1200px){
+    .awesome-wrapper__section{
+        width: 250px;
+    }
+
+    .section1-awesome__image, .section2-awesome__image, .section3-awesome__image{
+        margin-left: 50px;
+    }
+
+    .section1-awesome__subtitle, .section2-awesome__subtitle, .section3-awesome__subtitle{
+        width: 250px;
+    }
+
+    .section1-awesome__text, .section2-awesome__text, .section3-awesome__text{
+        width: 250px;
+    }
+}
+
+@media (max-width: 1256px){
+    .line{
+        margin-left: 591px;
+    }
+}
+
+@media (max-width: 1120px){
+    .line{
+        margin-left: 491px;
+    }
+}
+
+@media (max-width: 1024px){
+    .awesome-wrapper{
+        height: 600px;
+        max-width: 1024px;
+    }
+
+    .headline{
+        max-width: 990px;
+        height: 120px;
+        margin-top: 50px;
+        padding-left: 16px;
+        font-size: 24px;
+        margin-top: 32px;
+        text-align: center;
+    }
+
+    .line{
+        width: 142px;
+        margin-left: 441px;
+    }
+
+    .subline{
+        max-width: 983px;
+        height: 16px;
+        font-size: 14px;
+        padding-left: 21px;
+        text-align: center;
+    }
+
+    .awesome-wrapper__section{
+        width: 315px;
+        height: 383px;
+        margin-top: 32px;
+    }
+
+    .section1-awesome{
+        margin-left: 16px;
+    }
+
+    .section2-awesome, .section3-awesome{
+        margin-left: 20px;
+    }
+
+    .section1-awesome__image, .section2-awesome__image, .section3-awesome__image{
+        width: 147px;
+        height: 147px;
+        margin-left: 87px;
+    }
+
+    .section1-awesome__subtitle, .section2-awesome__subtitle, .section3-awesome__subtitle{
+        width: 318px;
+        height: 82px;
+        font-size: 18px;
+    }
+
+    .section1-awesome__text, .section2-awesome__text, .section3-awesome__text{
+        width: 318px;
+        height: 105px;
+        font-size: 14px;
+        margin-top: 17px;
+        
+    }
+}
+
+@media (max-width: 1023px){
+    .awesome-wrapper__section{
+        width: 250px;
+        height: 320px;
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-bottom: 10px;
+    }
+
+    .section1-awesome__image, .section2-awesome__image, .section3-awesome__image{
+        width: 147px;
+        height: 147px;
+        margin-left: 56px;
+    }
+
+    .section1-awesome__subtitle, .section2-awesome__subtitle, .section3-awesome__subtitle{
+        width: 250px;
+        height: 82px;
+
+    }
+
+    .section1-awesome__text, .section2-awesome__text, .section3-awesome__text{
+        width: 250px;
+        height: 80px;
+        margin-top: 8px;
+    }
+}
+
+@media (max-width: 814px){
+    .line{
+        margin-left: 100px;
+    }
+
+    .awesome-wrapper{
+        height: 900px;
+    }
+}
+
+@media (max-width: 548px){
+    .awesome-wrapper{
+        height: 1250px;
+    }
+}
+
+@media (max-width: 320px){
+    .awesome-wrapper{
+        min-width: 320px;
+        height: 1290px;
+    }
+
+    .headline{
+        margin: 0;
+        padding-left: 16px;
+        width: 288px;
+        height: 120px;
+        font-size: 18px;
+    }
+
+    .line{
+        margin-left: 93px;
+        width: 134px;
+    }
+
+    .subline{
+        width: 288px;
+        height: 30px;
+        margin-top: 25px;
+        padding-left: 16px;
+        text-align: center;
+        font-size: 13px;
+        line-height: normal;
+    }
+
+    .awesome-wrapper__section{
+        width: 288px;
+        height: 320px;
+        margin-top: 10px;
+        margin-left: 16px;
+        margin-bottom: 10px;
+    }
+
+    .section1-awesome{
+        margin-top: 50px;
+    }
+
+    .section1-awesome__image, .section2-awesome__image, .section3-awesome__image{
+        width: 147px;
+        height: 147px;
+        margin-left: 68px;
+    }
+
+    .section1-awesome__subtitle, .section2-awesome__subtitle, .section3-awesome__subtitle{
+        width: 288px;
+        height: 82px;
+
+    }
+
+    .section1-awesome__text, .section2-awesome__text, .section3-awesome__text{
+        width: 288px;
+        height: 80px;
+        margin-top: 8px;
+    }
+}

@@ -1,0 +1,218 @@
+/* Social-media */
+
+.social-back{
+    width: 100%;
+    height: 140px;
+    background-color: #F8EFEF;
+}
+
+.social-media{
+    display: flex;
+    max-width: 1510px;
+    height: 140px;
+    align-content: flex-start;
+    flex-flow:column wrap;
+    background-color: #F8EFEF;
+    margin: 0 auto;
+}
+
+.social-media__tittle{
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 24px;
+    color: #333;
+
+    display: flex;
+    width: 470px;
+    height: 60px;
+    align-items: center;
+    padding-left: 170px;
+    margin-bottom: 18px;
+}
+
+.social-media__text{
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+
+    display: flex;
+    width: 470px;
+    height: 42px;
+    justify-content: center;
+    margin-left: 170px;
+}
+
+.social-media__icons{
+    max-height: 70px;
+    max-width: 70px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+@media(max-width: 1250px){
+    .social-media__tittle{
+        padding-left: 50px;
+    }
+
+    .social-media__text{
+        margin-left: 50px;
+    }
+}
+
+@media(max-width: 1130px){
+    .social-media__icons{
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 1024px){
+    .social-back{
+        height: 105px;
+        max-width: 1024px;
+    }
+
+    .social-media{
+        height: 105px;
+    }
+
+    .social-media__tittle{
+        width: 402px;
+        height: 45px;
+        padding-left: 16px;
+        font-size: 18px;
+    }
+
+    .social-media__text{
+        width:  402px;
+        height: 32px;
+        margin-left: 16px;
+        font-size: 14px;
+    }
+
+    .social-media__icons{
+        width: 64px;
+        height: 64px;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 1023px){
+    .social-media__icons{
+        width: 50px;
+        height: 50px;
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+}
+
+@media (max-width: 920px){
+    .social-back, .social-media{
+        display: block;
+        max-width: 920px;
+    }
+
+    .social-media__tittle{
+        display: flex;
+        width: 287px;
+        height: 45px;
+        font-size: 18px;
+        padding-top: 31px;
+        margin-left: 17px;
+        justify-content: center;
+        float: left;
+    }
+
+    .social-media__text{
+        width: 271px;
+        height: 48px;
+        font-size: 14px;
+        padding-top: 20px;
+        margin-left: 33px;
+        text-align: center;
+    }
+
+    .social-media__icons{
+        width: 26px;
+        height: 26px;
+        margin-top: 10px;
+        margin-left: 8px;
+    }
+}
+
+@media (max-width: 620px){
+    .social-back, .social-media{
+        display: block;
+        max-width: 620px;
+        height: 239px;
+    }
+
+    .social-media__tittle{
+        display: flex;
+        width: 287px;
+        height: 45px;
+        font-size: 18px;
+        padding-top: 31px;
+        margin-left: 10px;
+        justify-content: center;
+        float: none;
+    }
+
+    .social-media__text{
+        width: 271px;
+        height: 48px;
+        font-size: 14px;
+        margin-top: 13px;
+        margin-left: 25px;
+        text-align: center;
+    }
+
+    .social-media__icons{
+        width: 26px;
+        height: 26px;
+        margin-top: 32px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 329px){
+    .social-media__tittle{
+        padding-left: 0;
+        width: 280px
+    }
+}
+
+@media (max-width: 320px){
+    .social-back, .social-media{
+        display: block;
+        min-width: 320px;
+        height: 239px;
+    }
+
+    .social-media__tittle{
+        display: flex;
+        width: 287px;
+        height: 45px;
+        font-size: 18px;
+        padding-top: 31px;
+        margin-left: 17px;
+        justify-content: center;
+    }
+
+    .social-media__text{
+        width: 271px;
+        height: 48px;
+        font-size: 14px;
+        margin-top: 13px;
+        margin-left: 33px;
+        text-align: center;
+    }
+
+    .social-media__icons{
+        width: 26px;
+        height: 26px;
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+}

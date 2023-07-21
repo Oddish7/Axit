@@ -14,18 +14,30 @@
     <div class="header-back">
         <header class="header">
             <img class="header__icon" src="./assets/fonts/svg/axit.svg" alt="picture"/>
-            <a href="#feature"><nav>Feature</nav></a>
-            <a href="#about"><nav>About</nav></a>
-            <a href="#pricing"><nav>Pricing</nav></a>
-            <a href="#reviews"><nav>Reviews</nav></a>
-            <a href="#contact"><nav>Contact</nav></a>
+            <input type="checkbox" id="burgertoogle" />
+            <label class="burger-button" for="burgertoogle">
+                <div class="burger-button__line line1"></div>
+                <div class="burger-button__line line2"></div>
+                <div class="burger-button__line line3"></div>
+            </label>
+            <nav class="header__nav">
+                <ul class="header__menu menu">
+                    <a href="#feature" class="nav-link"><li class="menu__item">Feature</li></a>
+                    <a href="#about" class="nav-link"><li class="menu__item">About</li></a>
+                    <a href="#pricing" class="nav-link"><li class="menu__item">Pricing</li></a>
+                    <a href="#reviews" class="nav-link"><li class="menu__item">Reviews</li></a>
+                    <a href="#contact" class="nav-link"><li class="menu__item">Contact</li></a>
+                </ul>
+            </nav>
         </header>
     </div>
-    <div id="feature" class="axit-back">
+    <div class="axit-back">
         <div class="axit-wrapper">
             <div class="axit-wrapper__section section-axit">
-                <img class="section-axit__ax-icon" src="./assets/fonts/svg/ax.svg" alt="picture"/>
-                <img class="section-axit__it-icon" src="./assets/fonts/svg/it.svg" alt="picture"/>
+                <div class="section-axit__logo logo-axit">
+                    <img class="logo-axit__ax-icon" src="./assets/fonts/svg/ax.svg" alt="picture"/>
+                    <img class="logo-axit__it-icon" src="./assets/fonts/svg/it.svg" alt="picture"/>
+                </div>
                 <h2 class="section-axit__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
                 <div class="section-axit__separator"></div>
                 <p class="section-axit__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -40,7 +52,7 @@
             </form>
         </div>
     </div>
-    <div id="about" class="social-back">
+    <div id="feature" class="social-back">
         <div class="social-media">
             <h2 class="social-media__tittle">Social Media</h2>
             <p class="social-media__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
@@ -74,7 +86,7 @@
                     bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br/> 
                     justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
                     penatibus et magnis dis parturient montes.<br/><br/>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br/>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
                     bibendum laoreet.
                 </p>
                 <input class="tab-wrapper__button red-button" type="button" value="Download"/>
@@ -83,12 +95,12 @@
             <div class="tab-wrapper__content content-tab2">
                 <h2 class="content-tab2__title">Recipe: Scrambled Egg</h2>
                 <p class="content-tab2__text">
-                    In a bowl or other container, beat the eggs with a fork or whisk.<br/>
-                    You can add salt now or after pouring the mass into the pan.<br/>
-                    Heat oil in a skillet over low heat. Pour the beaten eggs into it.<br/>
+                    In a bowl or other container, beat the eggs with a fork or whisk.
+                    You can add salt now or after pouring the mass into the pan.
+                    Heat oil in a skillet over low heat. Pour the beaten eggs into it.
                     When the mass begins to set along the edges, draw a spatula from the middle of the circle line to its center in several places.<br/>
-                    The eggs will bunch up.<br/><br/>
-                    Continue slowly and do not stir the eggs too much.<br/>
+                    The eggs will bunch up.
+                    Continue slowly and do not stir the eggs too much.
                     Due to this, the chatter turns out to be heterogeneous, unlike an omelette.
                 </p>
                 <input class="tab-wrapper__button red-button" type="button" value="Cook"/>
@@ -97,9 +109,9 @@
             <div class="tab-wrapper__content content-tab3">
                 <h2 class="content-tab3__title">Dota 2</h2>
                 <p class="content-tab3__text">
-                    A multiplayer team-based MOBA video game developed and published by Valve Corporation.</br>
-                    The game depicts the battle on a special kind of map;</br> 
-                    Each match involves two teams of five players each controlling different "heroes" - characters with different sets of abilities and characteristics.</br></br>
+                    A multiplayer team-based MOBA video game developed and published by Valve Corporation.
+                    The game depicts the battle on a special kind of map;
+                    Each match involves two teams of five players each controlling different "heroes" - characters with different sets of abilities and characteristics.
                     To win the match, the team must destroy a special object - the "fortress" belonging to the enemy side, and protect their own "fortress" from destruction
                 </p>
                 <input class="tab-wrapper__button red-button" type="button" value="Play"/>
@@ -107,7 +119,7 @@
             </div>
         </div>
     </div>
-    <div class="awesome-wrapper">
+    <div id="about" class="awesome-wrapper">
         <h2 class="awesome-wrapper__title headline">why this is awesome</h2>
         <div class="awesome-wrapper__separator line"></div>
         <h3 class="awesome-wrapper__subtitle subline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
@@ -186,6 +198,12 @@
         <h2 class="customers-wrapper__title headline">what our customers are saying</h2>
         <div class="customers-wrapper__separator line"></div>
         <h3 class="customers-wrapper__subtitle subline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+        <input type="radio" name="action-dot" id="dot1" class="customers-wrapper__dot-action" checked/>
+        <input type="radio" name="action-dot" id="dot2" class="customers-wrapper__dot-action"/>
+        <input type="radio" name="action-dot" id="dot3" class="customers-wrapper__dot-action"/>
+        <label class="customers-wrapper__point" id="point1" for="dot1"><span class="checkmark"></span></label>
+        <label class="customers-wrapper__point" id="point2" for="dot2"><span class="checkmark"></span></label>
+        <label class="customers-wrapper__point" id="point3" for="dot3"><span class="checkmark"></span></label>
         <div class="customers-wrapper__section1 section1-customers"> 
             <div class="section1-customers__banner banner-customers">
                 <p class="banner-customers__text">
@@ -241,11 +259,13 @@
         <h2 class="contact-wrapper__title headline">contact us</h2>
         <div class="contact-wrapper__separator line"></div>
         <h3 class="contact-wrapper__subtitle subline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+        <div class="contact-wrapper__left-half">
+            <input class="contact-wrapper__name name-input" type="text" placeholder="Name" name="name"/></br>
+            <input class="contact-wrapper__email email-input" type="email" placeholder="Email" name="email"/></br>
+            <input class="contact-wrapper__password password-input" type="password" placeholder="Password" name="password"/>
+            <input class="contact-wrapper__button red-button" type="submit" value="Send Message"/>
+        </div>
         <textarea class="contact-wrapper__textarea message-input" placeholder="Message" name="message"></textarea>
-        <input class="contact-wrapper__name name-input" type="text" placeholder="Name" name="name"/></br>
-        <input class="contact-wrapper__email email-input" type="email" placeholder="Email" name="email"/></br>
-        <input class="contact-wrapper__password password-input" type="password" placeholder="Password" name="password"/>
-        <input class="contact-wrapper__button red-button" type="submit" value="Send Message"/>
     </form>
     <div class="footer-back">
         <footer class="footer">

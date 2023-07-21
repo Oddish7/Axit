@@ -1,0 +1,346 @@
+/* Customers */
+
+.customers-wrapper{
+    max-width: 1508px;
+    height: 744px;
+    margin: 0 auto;
+}
+
+.customers-wrapper__title{
+    padding-top: 50px;
+}
+
+.banner-customers{
+    width: 370px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: #E2E2E2;
+}
+
+.banner-customers::after{ /*Треугольник*/
+    content: ''; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+
+    position: relative;
+    top: 52px;
+    left: 70px;
+}
+
+.banner-customers__text{
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+
+    text-align: center;
+    padding-top: 38px;
+}
+
+.customers-wrapper__image{
+    margin-top: 66px;
+    float: left;
+}
+
+.customers-wrapper__name{
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 24px;
+
+    display: flex;
+    width: 269px;
+    height: 54px;
+    align-items: center;
+    padding-top: 66px;
+    padding-left: 30px;
+}
+
+.customers-wrapper__job-title{
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+
+    display: flex;
+    width: 270px;
+    height: 21px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.customers-wrapper__section1{
+    width: 370px;
+    height: 336px;
+    margin-top: 83px;
+    margin-left: 170px;
+    float: left;
+}
+
+.customers-wrapper__section2{
+    width: 370px;
+    height: 336px;
+    margin-top: 83px;
+    margin-left: 30px;
+    float: left;
+}
+
+.customers-wrapper__section3{
+    width: 370px;
+    height: 336px;
+    margin-top: 83px;
+    margin-left: 30px;
+    float: left;
+}
+
+/* Dots */
+
+.customers-wrapper__dot-action{
+    display: none;
+}
+
+.customers-wrapper__point{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #86878B;
+    display: none;
+}
+
+#dot1:checked ~ #point1, #dot2:checked ~ #point2, #dot3:checked ~ #point3{
+    background-color: #86878B;
+}
+
+#dot1:checked ~ .section1-customers, #dot2:checked ~ .section2-customers, #dot3:checked ~ .section3-customers{
+    display: block;
+}
+
+@media (max-width: 1356px){
+    .customers-wrapper__section1{
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+
+    .customers-wrapper__section2, .customers-wrapper__section3{
+        margin-top: 32px;
+        margin-left: 20px;
+    }
+
+    .customers-wrapper__section1, .customers-wrapper__section2, .customers-wrapper__section3{
+        width: 317px;
+    }
+
+    .banner-customers{
+        width: 317px;
+    }
+
+    .banner-customers::after{
+        top: 60px;
+    }
+
+    .banner-customers__text{
+        font-size: 14px;
+        padding-top: 50px;
+    }
+
+    .customers-wrapper__image{
+        width: 63px;
+        height: 63px;
+    }
+    
+    .customers-wrapper__name{
+        width: 230px;
+        height: 36px;
+        font-size: 18px;
+        padding-left: 22px;
+    }
+
+    .customers-wrapper__job-title{
+        font-size: 14px;
+        padding-left: 22px;
+        width: 232px;
+        height: 16px;
+    }
+}
+
+@media (max-width: 1024px){
+    .customers-wrapper{
+        max-width: 1024px;
+        height: 625px;
+    }
+
+    .customers-wrapper__title{
+        margin-top: 0;
+        padding-top: 50px;
+    }
+
+    .customers-wrapper__section1{
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+
+    .customers-wrapper__section2, .customers-wrapper__section3{
+        margin-top: 32px;
+        margin-left: 20px;
+    }
+
+    .customers-wrapper__section1, .customers-wrapper__section2, .customers-wrapper__section3{
+        width: 317px;
+    }
+
+    .banner-customers{
+        width: 317px;
+    }
+
+    .banner-customers::after{
+        top: 60px;
+    }
+
+    .banner-customers__text{
+        font-size: 14px;
+        padding-top: 50px;
+    }
+
+    .customers-wrapper__image{
+        width: 63px;
+        height: 63px;
+    }
+    
+    .customers-wrapper__name{
+        width: 230px;
+        height: 36px;
+        font-size: 18px;
+        padding-left: 22px;
+    }
+
+    .customers-wrapper__job-title{
+        font-size: 14px;
+        padding-left: 22px;
+        width: 232px;
+        height: 16px;
+    }
+}
+
+@media (max-width: 1023px){
+    .customers-wrapper__section1, .customers-wrapper__section2, .customers-wrapper__section3{
+        margin-top: 10px;
+        width: 250px;
+        height: 316px;
+        margin-left: 16px;
+    }
+
+    .banner-customers{
+        width: 250px;
+        height: 180px;
+    }
+
+    .banner-customers::after{
+        top: 70px;
+        left: 47px;
+    }
+
+    .customers-wrapper__image{
+        width: 57px;
+        height: 57px;
+        margin-top: 62px;
+    }
+
+    .customers-wrapper__name{
+        width: 150px;
+        height: 36px;
+
+    }
+
+    .customers-wrapper__job-title{
+        padding-top: 0;
+        width: 150px;
+        height: 34px;
+    }
+}
+
+@media (max-width: 814px){
+    .customers-wrapper{
+        height: 900px;
+    }
+}
+
+@media (max-width: 548px){
+    .customers-wrapper{
+        height: 1220px;
+    }
+}
+
+@media (max-width: 393px){
+    .section1-customers{
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 320px){
+    .customers-wrapper{
+        min-width: 320px;
+        height: 590px;
+    }
+
+    .customers-wrapper__title{
+        padding-top: 0;
+        text-align: center;
+        line-height: normal;
+        font-size: 24px;
+    }
+
+    .customers-wrapper__section1, .customers-wrapper__section2, .customers-wrapper__section3{
+        margin-top: 10px;
+        width: 288px;
+        height: 316px;
+        float: none;
+        margin-left: 16px;
+    }
+
+    .banner-customers{
+        width: 288px;
+        height: 180px;
+    }
+
+    .banner-customers::after{
+        top: 70px;
+        left: 47px;
+    }
+
+    .customers-wrapper__image{
+        width: 57px;
+        height: 57px;
+        margin-top: 62px;
+    }
+
+    .customers-wrapper__name{
+        width: 204px;
+        height: 36px;
+
+    }
+
+    .customers-wrapper__job-title{
+        padding-top: 0;
+        width: 205px;
+        height: 34px;
+    }
+
+    /* Dots */
+
+    .section1-customers, .section2-customers, .section3-customers{
+        display: none;
+    }
+
+    #point1{
+        margin-left: 96px;
+    }
+
+    #point2, #point3{
+        margin-left: 40px;
+    }
+
+    .customers-wrapper__point{
+        display: inline-block;
+        position: relative;
+        top: 370px;
+    }
+}
