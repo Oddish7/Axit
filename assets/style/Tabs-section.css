@@ -286,6 +286,79 @@
     }
 }
 
+@media (max-width: 390px){
+    .tab-back{
+        max-width: 390px;
+        padding: 0;
+        height: 515px;
+    }
+
+    .tab-wrapper{
+        width: 288px;
+        margin-left: 51px;
+    }
+
+    #subject1, #subject2, #subject3{
+        width: 100px;
+        height: 40px;
+        margin-top: 40px;
+    }
+
+    #subject2, #subject3{
+        width: 93px;
+    }
+
+    #subject3{
+        width: 88px;
+    }
+
+    .tab-title{
+        padding-left: 16px;
+    }
+
+    .tab-title2, .tab-title3{
+        padding-left: 11px;
+    }
+
+    .tab-wrapper__content{
+        width: 285px;
+        height: 431px;
+    }
+
+    .content-tab1__title, .content-tab2__title, .content-tab3__title{
+        width: 243px;
+        height: 112px;
+        padding-left: 25px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .content-tab1__text, .content-tab2__text, .content-tab3__text{
+        width: 243px;
+        height: 180px;
+        padding-left: 25px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .tab-wrapper__button{
+        margin-top: 29px;
+        margin-left: 25px;
+        width: 243px;
+        height: 50px;
+    }
+
+    .tab-wrapper__image{
+        display: none;
+    }
+}
+
+@media (max-width: 358px){
+    .tab-wrapper{
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 320px){
     .tab-back{
         min-width: 320px;
@@ -295,6 +368,7 @@
 
     .tab-wrapper{
         width: 300px;
+        margin-left: 16px;
     }
 
     #subject1, #subject2, #subject3{

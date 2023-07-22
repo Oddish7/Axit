@@ -183,6 +183,59 @@
     }
 }
 
+@media (max-width: 390px){
+    .social-back, .social-media{
+        display: block;
+        max-width: 390px;
+        height: 239px;
+    }
+
+    .social-media__tittle{
+        display: flex;
+        width: 288px;
+        height: 45px;
+        font-size: 18px;
+        padding-top: 31px;
+        margin-left: 51px;
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .social-media__text{
+        width: 272px;
+        height: 48px;
+        font-size: 14px;
+        margin-top: 13px;
+        margin-left: 59px;
+        text-align: center;
+    }
+
+    .social-media__icons{
+        width: 26px;
+        height: 26px;
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+
+    .facebook{
+        margin-left: 45px;
+    }
+}
+
+@media (max-width: 358px){
+    .social-media__tittle{
+        margin-left: 0;
+    }
+
+    .social-media__text{
+        margin-left: 0;
+    }
+
+    .social-media__icons{
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 320px){
     .social-back, .social-media{
         display: block;

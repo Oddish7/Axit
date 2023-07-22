@@ -236,6 +236,72 @@
     }
 }
 
+@media (max-width: 390px){
+    .pricing-wrapper, .pricing-back{
+        max-width: 390px;
+        height: 1580px;
+    }
+
+    .pricing-wrapper__title{
+        padding-top: 0;
+        font-size: 24px;
+        padding-left: 51px;
+    }
+
+    .pricing-wrapper__subtitle{
+        padding-left: 51px;
+    }
+
+    .pricing-wrapper__subject{
+        width: 288px;
+        height: 423px;
+        float: none;
+        margin-left: 51px;
+    }
+
+    .subject2-pricing, .subject3-pricing{
+        margin-top: 27px;
+    }
+
+    .subject1-pricing__rate, .subject2-pricing__rate, .subject3-pricing__rate{
+        width: 288px;
+        height: 47px;
+        font-size: 18px;
+    }
+
+    .subject1-pricing__price, .subject2-pricing__price, .subject3-pricing__price{
+        width: 288px;
+        height: 80px;
+        font-size: 24px;
+    }
+
+    .subject1-pricing__slogan, .subject2-pricing__slogan, .subject3-pricing__slogan{
+        width: 288px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .subject1-pricing__text, .subject2-pricing__text, .subject3-pricing__text{
+        width: 288px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 358px){
+    .pricing-wrapper__title{
+        padding-left: 0;
+    }
+
+    .pricing-wrapper__subtitle{
+        padding-left: 0;
+    }
+
+    .pricing-wrapper__subject{
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 320px){
     .pricing-wrapper, .pricing-back{
         min-width: 320px;
@@ -245,6 +311,11 @@
     .pricing-wrapper__title{
         padding-top: 0;
         font-size: 24px;
+        padding-left: 16px;
+    }
+
+    .pricing-wrapper__subtitle{
+        padding-left: 16px;
     }
 
     .pricing-wrapper__subject{

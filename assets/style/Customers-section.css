@@ -275,6 +275,82 @@
     }
 }
 
+@media (max-width: 390px){
+    .customers-wrapper{
+        max-width: 390px;
+        height: 590px;
+    }
+
+    .customers-wrapper__title{
+        padding-top: 0;
+        text-align: center;
+        line-height: normal;
+        font-size: 24px;
+    }
+
+    .customers-wrapper__section1, .customers-wrapper__section2, .customers-wrapper__section3{
+        margin-top: 10px;
+        width: 288px;
+        height: 316px;
+        float: none;
+        margin-left: 51px;
+    }
+
+    .banner-customers{
+        width: 288px;
+        height: 180px;
+    }
+
+    .banner-customers::after{
+        top: 70px;
+        left: 47px;
+    }
+
+    .customers-wrapper__image{
+        width: 57px;
+        height: 57px;
+        margin-top: 62px;
+    }
+
+    .customers-wrapper__name{
+        width: 204px;
+        height: 36px;
+
+    }
+
+    .customers-wrapper__job-title{
+        padding-top: 0;
+        width: 205px;
+        height: 34px;
+    }
+
+    /* Dots */
+
+    .section1-customers, .section2-customers, .section3-customers{
+        display: none;
+    }
+
+    #point1{
+        margin-left: 122px;
+    }
+
+    #point2, #point3{
+        margin-left: 40px;
+    }
+
+    .customers-wrapper__point{
+        display: inline-block;
+        position: relative;
+        top: 370px;
+    }
+}
+
+@media (max-width: 358px){
+    .customers-wrapper__section1, .customers-wrapper__section2, .customers-wrapper__section3{
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 320px){
     .customers-wrapper{
         min-width: 320px;

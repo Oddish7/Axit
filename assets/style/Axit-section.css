@@ -348,6 +348,111 @@
     }
 }
 
+@media (max-width: 390px){
+    .axit-back{
+        background: url(../images/axit/street.png), 50% / contain no-repeat;
+        background-blend-mode: multiply;
+        background-color: rgba(0, 0, 0, .5);
+    }
+    
+    .axit-back, .axit-wrapper{
+        flex-direction: column;
+        max-width: 390px;
+        height: 950px;
+    }
+    
+    .logo-axit{
+        display: none;
+    }
+    
+    .section-axit{
+        max-width: 390px;
+        height: 461px;
+        float: none;
+    }
+    
+    .section-axit__title{
+        width: 288px;
+        height: 168px;
+        font-size: 36px;
+        margin-top: 85px;
+        margin-left: 51px;
+        text-align: center;
+    }
+    
+    .section-axit__separator{
+        width: 134px;
+        margin-left: 128px;
+    }
+    
+    .section-axit__text{
+        width: 288px;
+        height: 32px;
+        margin-top: 42px;
+        margin-left: 51px;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .white-button{
+        width: 288px;
+        height: 50px;
+        margin-top: 42px;
+        margin-left: 51px;
+    }
+    
+    .banner-axit{
+        width: 288px;
+        height: 381px;
+        margin-left: 51px;
+        margin-top: 56px;
+    }
+    
+    .banner-axit__title{
+        width: 240px;
+        height: 90px;
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    
+    .banner-axit__name{
+        margin-top: 0;
+    }
+    
+    .banner-axit__name, .banner-axit__email, .banner-axit__password{
+        width: 240px;
+        height: 38px;
+        margin-left: 20px;
+    }
+    
+    .banner-axit__button{
+        width: 288px;
+        height: 60px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 358px){
+    .section-axit__title{
+        margin-left: 0px;
+    }
+    
+    .section-axit__separator{
+        margin-left: 0px;
+    }
+    
+    .section-axit__text{
+        margin-left: 0px;
+    }
+    .white-button{
+        margin-left: 0;
+    }
+
+    .banner-axit{
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 320px){
     .axit-back{
         background: url(../images/axit/street.png), 50% / contain no-repeat;

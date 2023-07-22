@@ -158,6 +158,67 @@
     }
 }
 
+@media (max-width: 390px){
+    .contact-wrapper{
+        max-width: 390px;
+        height: 870px;
+    }
+
+    .contact-wrapper__title{
+        padding-top: 0;
+        font-size: 24px;
+        font-weight: 400;
+        padding-left: 51px;
+    }
+
+    .contact-wrapper__subtitle{
+        margin-bottom: 64px;
+    }
+
+    .contact-wrapper__left-half{
+        max-width: 390px;
+        float: none;
+    }
+
+    .contact-wrapper__name, .contact-wrapper__email, .contact-wrapper__password{
+        width: 288px;
+        margin-left: 51px;
+    }
+
+    .contact-wrapper__textarea{
+        width: 288px;
+        margin-top: 50px;
+        margin-left: 51px;
+    }
+
+    .contact-wrapper__button{
+        position: relative;
+        width: 288px;
+        height: 50px;
+        margin-top: 0;
+        margin-left: 51px;
+        top: 316px;
+    }
+}
+
+@media (max-width: 358px){
+    .contact-wrapper__title{
+        padding-left: 0;
+    }
+
+    .contact-wrapper__name, .contact-wrapper__email, .contact-wrapper__password{
+        margin-left: 0;
+    }
+
+    .contact-wrapper__textarea{
+        margin-left: 0;
+    }
+
+    .contact-wrapper__button{
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 320px){
     .contact-wrapper{
         min-width: 320px;
@@ -168,6 +229,7 @@
         padding-top: 0;
         font-size: 24px;
         font-weight: 400;
+        padding-left: 16px;
     }
 
     .contact-wrapper__subtitle{
@@ -181,6 +243,7 @@
 
     .contact-wrapper__name, .contact-wrapper__email, .contact-wrapper__password{
         width: 288px;
+        margin-left: 16px;
     }
 
     .contact-wrapper__textarea{

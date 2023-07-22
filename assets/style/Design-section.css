@@ -69,6 +69,44 @@
     }
 }
 
+@media (max-width: 390px){
+    .design-back, .design-wrapper{
+        max-width: 390px;
+        height: 360px;
+    }
+
+    .design-wrapper{
+        background: url(../images/design/city.png), 100% 100% / contain no-repeat;
+        background-blend-mode: multiply;
+        background-color: rgba(0, 0, 0, .5);
+        background-attachment: none;
+    } 
+
+    .design-wrapper__title{
+        padding-top: 0;
+        font-size: 24px;
+    }
+
+    .design-wrapper__subtitle{
+        height: 48px;
+        margin-top: 16px;
+        font-size: 14px;
+    }
+
+    .design-wrapper__button{
+        width: 288px;
+        height: 50px;
+        margin-left: 51px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 358px){
+    .design-wrapper__button{
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 320px){
     .design-back, .design-wrapper{
         min-width: 320px;
@@ -79,7 +117,7 @@
         background: url(../images/design/city.png), 100% 100% / contain no-repeat;
         background-blend-mode: multiply;
         background-color: rgba(0, 0, 0, .5);
-        background-attachment: fixed;
+        background-attachment: none;
     } 
 
     .design-wrapper__title{

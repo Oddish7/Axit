@@ -97,6 +97,39 @@
     }
 }
 
+@media (max-width: 390px){
+    .footer-back, .footer{
+        max-width: 390px;
+        height: 164px;
+    }
+
+    .footer__icons{
+        width: 26px;
+        height: 26px;
+        margin-left: 16px;
+    }
+
+    .facebook-footer{
+        margin-left: 40px;
+    }
+
+    .copyright{
+        width: 288px;
+        height: 47px;
+        font-size: 14px;
+        padding-left: 51px;
+        padding-top: 42px;
+    }
+}
+
+@media (max-width: 358px){
+    .copyright{
+        height: 20px;
+        padding-top: 0;
+        padding-left: 0;
+    }
+}
+
 @media (max-width: 320px){
     .footer-back, .footer{
         min-width: 320px;
